@@ -10,12 +10,15 @@ abstract class Tiket {
         this.harga = harga;
     }
 
+    // Membuat method abstrak untuk menghitung harga
     public abstract int hitungHarga(int jumlahTiket);
 
+    // Membuat getter untuk mereturn jenis
     public String getJenis(){
         return jenis;
     }
 
+    // Membuat getter untuk mereturn harga
     public int getHarga(){
         return harga;
     }

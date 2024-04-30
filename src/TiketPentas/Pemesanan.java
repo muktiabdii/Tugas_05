@@ -16,6 +16,7 @@ class Pemesanan {
 
     public void cetakNota() {
 
+        // Mendeklarasikan total harga dengan memanggil method hitung harga
         int totalHarga = tiket.hitungHarga(jumlah);
 
         System.out.println("--- Nota Pemesanan ---");
